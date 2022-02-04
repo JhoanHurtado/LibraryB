@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Entities\Library.Entities.csproj" />
+    <ProjectReference Include="..\Library.Interfaces\Library.Interfaces.csproj" />
+    <ProjectReference Include="..\Library.Services\Library.Services.csproj" />
+    <ProjectReference Include="..\Library.Utility\Library.Utility.csproj" />
+  </ItemGroup>
+
+
+</Project>
